@@ -1,0 +1,58 @@
+# OS / editor junk
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+.vscode/
+
+# Python caches
+__pycache__/
+.pytest_cache/
+
+# Environment files
+.env
+
+# Node (just in case)
+node_modules/
+
+# Local artifacts not needed in repo
+Call for Designs_*
+# Ignore development files
+temp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore large image files (keep README.md)
+images/mobile/*.png
+images/tablet/*.png
+images/desktop/*.png
+images/hover-states/*.png
+!images/README.md
+
+# Keep these for submission:
+!src/
+!docs/
+!.github/
+!README.md
+!LICENSE
+!QUICKSTART.md
+!PROJECT_STRUCTURE.md
+!CONTEST_COMPLIANCE.md

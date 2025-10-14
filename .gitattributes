@@ -1,0 +1,21 @@
+* text=auto eol=lf
+
+# Preserve Windows line endings for batch/PowerShell scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Treat images and binaries appropriately
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+
+# Keep HTML/CSS/MD as text for diffs
+*.html text
+*.css text
+*.md text
+*.py text
