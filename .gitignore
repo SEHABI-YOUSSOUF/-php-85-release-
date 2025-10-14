@@ -41,11 +41,11 @@ Thumbs.db
 desktop.ini
 
 # Ignore large image files (keep README.md)
-images/mobile/*.png
-images/tablet/*.png
-images/desktop/*.png
-images/hover-states/*.png
-!images/README.md
+# images/mobile/*.png
+# images/tablet/*.png
+# images/desktop/*.png
+# images/hover-states/*.png
+# !images/README.md
 
 # Keep these for submission:
 !src/
